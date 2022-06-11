@@ -345,7 +345,7 @@ contract Superstate is UniswapV2ERC20, IUniswapV2Pair {
 
     
 
-    function depsositFlag(uint8 _flag) public {
+    function depositFlag(uint8 _flag) public {
         require(msg.sender == controller);
         flag = _flag;
     } ///
